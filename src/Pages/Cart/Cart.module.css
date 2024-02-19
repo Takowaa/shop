@@ -1,0 +1,67 @@
+/* Cart.module.css */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 80px 0;
+}
+.totatPrice{
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+
+.col{
+    width: 50%;
+}
+
+.row img{
+    width: 50%;
+    height: 600px;
+    object-fit: contain;
+}
+.cart button {
+    margin-top: 5px;
+}
+
+.cart span {
+    margin: 5px 10px;
+}
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.text{
+    font-size: 22px;
+}
+.btnPlus{
+    background-color: green;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    padding: 3px 10px;
+}
+.btnMinus{
+    background-color: red;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    padding: 3px 10px;
+}
+.btnTop{
+    margin-top: 20px;
+}
+.emptyFavorites {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.emptyFavorites img {
+    max-width: 600px;
+
+}

@@ -1,0 +1,26 @@
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 30px;
+}
+
+
+.favoriteCard{
+    text-align: center;
+}
+.emptyFavorites {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.emptyFavorites img {
+    max-width: 600px;
+
+}
+.hero{
+    padding: 100px 0;
+}
